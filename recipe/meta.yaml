@@ -1,5 +1,5 @@
 {% set name = "pytask-julia" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_julia-{{ version }}.tar.gz
-  sha256: 7d0ef9da0c0a191758d318ef0f9b7d7772b298713d84c844d9bf6af716eef618
+  sha256: c92da97bdc86c14be0e77679015cb72ea4a6abbd0417b553f1e762dce67aa694
 
 build:
   number: 0
