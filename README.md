@@ -1,11 +1,11 @@
-About pytask-julia
-==================
+About pytask-julia-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-julia-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytask-dev/pytask-julia
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-julia-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Pytask plugin for Julia
 

@@ -1,5 +1,5 @@
 {% set name = "pytask-julia" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_julia-{{ version }}.tar.gz
-  sha256: bff9a5f10699df2b45618a1fa8a323c6c78f63dc3c4e8dfb8379e908f7227a7a
+  sha256: 576c4b7ebeddb516940b75a34a8194a8816cd5ee4def4817fbbdf632f5ea1a1f
 
 build:
   number: 0
@@ -17,15 +17,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools_scm
     - toml
   run:
     - click
-    - pluggy
-    - pybaum >=0.1.1
-    - pytask >=0.3
-    - python >=3.7
+    - pluggy >=1.0.0
+    - pytask >=0.4.0
+    - python >=3.8
 
 test:
   imports:
